@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-######################DNA-resnet101
-=======
-#######################DNA-resnet101
->>>>>>> a2d5ea4de44becc51687378b3670e96c3144f422
 import pandas as pd
 import torch
 import torch.nn as nn
