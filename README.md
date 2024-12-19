@@ -9,13 +9,23 @@ Cancer remains a major global health challenge, requiring innovative tools for e
 ## Software dependencies
 scanpy==1.9.6
 
-pytorch==1.12.0+cu11.3
+pytorch==1.12.1+cu11.3
 
-pytorch_geometric==2.4.0
+esm==2.0.0
 
-R==4.2.3
+pandas==1.5.3
 
-mclust==5.4.10
+scikit-learn==1.2.2
+
+matplotlib==3.7.1
+
+tqdm==4.64.1
+
+numpy==1.23.5
+
+umap-learn==0.5.4
+
+
 
 ## set up
 First clone the repository.
