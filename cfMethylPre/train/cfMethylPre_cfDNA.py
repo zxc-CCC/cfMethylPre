@@ -72,7 +72,7 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(filenames, labels)):
     model = models.resnet101(pretrained=False)
     model.conv1 = nn.Conv2d(1, 64, kernel_size=7, stride=2, padding=3, bias=False)
     model.fc = nn.Linear(model.fc.in_features, 91)
-    model.load_state_dict(torch.load('../model/all_dna_101_1.pt'))
+    model.load_state_dict(torch.load('/zhangxuchao/encode_pca/128/dna/result_640-128/all_dna_101_1.pt'))
     
     transfer_model = model
 
