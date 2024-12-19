@@ -7,15 +7,15 @@ Classifying cancer patients using cfMethylPre.
 Cancer remains a major global health challenge, requiring innovative tools for early detection and improved patient outcomes. To address this, we introduce cfMethylPre, a novel deep learning and transfer learning framework designed for cancer detection using cell-free DNA (cfDNA) methylation data. cfMethylPre combines pre-trained DNA sequence embeddings with methylation profiles to enhance feature representation. The model employs a transfer learning approach, pre-training on bulk DNA methylation data and then fine-tuning with cfDNA data to improve predictive accuracy. Additionally, cfMethylPre incorporates interpretability, allowing for insights into key features driving predictions. This framework demonstrates improved accuracy and robustness for cancer detection, paving the way for its application in precision oncology.
 
 ## Software dependencies
-scanpy==1.9.6
-pytorch==1.12.1+cu11.3
-esm==2.0.0
-pandas==1.5.3
-scikit-learn==1.2.2
-matplotlib==3.7.1
-tqdm==4.64.1
-numpy==1.23.5
-umap-learn==0.5.4
+scanpy==1.9.6 <br />
+pytorch==1.12.1+cu11.3 <br />
+esm==2.0.0 <br />
+pandas==1.5.3 <br />
+scikit-learn==1.2.2 <br />
+matplotlib==3.7.1 <br />
+tqdm==4.64.1 <br />
+numpy==1.23.5 <br />
+umap-learn==0.5.4 <br />
 
 
 
