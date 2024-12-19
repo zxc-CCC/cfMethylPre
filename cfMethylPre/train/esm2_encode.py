@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import torch
 import esm
 import pandas as pd
@@ -78,5 +77,4 @@ columns = ['representation_{}'.format(i) for i in range(len(sequence_representat
 
 result_df = pd.DataFrame(sequence_representations, columns=columns)
 result_df['IlmnID'] = probe_seq['IlmnID']
->>>>>>> a2d5ea4de44becc51687378b3670e96c3144f422
 result_df.to_csv('../data/encode_matrix/t48_15B_all.csv', index=False)
